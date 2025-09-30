@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 1000px;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  border: dashed 2px #fe5d42;
+  padding: 15px;
+  border-radius: 50px;
+  margin-right: 30px;
+}
+
+.information {
+  min-height: 300px;
+  width: 100%;
+  border: dashed 2px #e2e2e2;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.title {
+  color: #fe5d42;
+}
+
+.description {
+  color: gray;
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category svg,
+.information span svg {
+  color: #fe5d42;
+  margin-right: 10px;
+}
+
+.information div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information a {
+  display: flex;
+  align-items: center;
+  background-color: #fe5d42;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.information a svg {
+  margin-right: 10px;
+}

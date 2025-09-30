@@ -1,0 +1,30 @@
+.searchBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.searchBox input {
+  width: 240px;
+  height: 35px;
+  padding: 0 15px;
+  border: 2px dashed #e2e2e2;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.searchBox input:focus {
+  outline: none;
+}
+
+.searchBox button {
+  border: none;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  background-color: #fe5d42;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 5px;
+  cursor: pointer;
+}

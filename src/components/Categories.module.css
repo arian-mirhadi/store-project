@@ -1,0 +1,32 @@
+.sidebar {
+    width: 160px;
+    border: 2px dashed #e2e2e2;
+    padding: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.sidebar div {
+    display: flex;
+    align-items: center;
+    color: #fe5d42;
+    margin-bottom: 15px;
+}
+
+.sidebar div svg {
+    margin-right: 10px;
+}
+
+.sidebar ul li {
+    list-style: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #fe5d42;
+    color: white;
+    font-weight: 600;
+}

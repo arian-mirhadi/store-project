@@ -1,0 +1,58 @@
+.card {
+  max-width: 280px;
+  height: fit-content;
+  border-radius: 20px;
+  border: 2px dashed #e2e2e2;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: #fe5d42;
+}
+
+.card span {
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.actions div {
+  display: flex;
+  align-items: center;
+}
+
+.actions a {
+  font-size: 1.6rem;
+  color: #fe5d42;
+  cursor: pointer;
+}
+
+.actions div button {
+  width: 35px;
+  height: 35px;
+  line-height: 15px;
+  background-color: #fe5d42;
+  color: #fff;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.actions div span {
+  margin: 0 10px;
+}
